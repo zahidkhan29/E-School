@@ -1,0 +1,264 @@
+/*Extra small devices (portrait phones, less than 576px*/
+@media (max-width: 575.98px) {
+
+      /*header start*/
+ header{
+    padding: 0 ;
+ }   
+ .logo{
+    width: 170px;
+ }
+ .menu ul li a{
+    margin-bottom: 5px;
+    padding: 0 10px !important ;
+} 
+/*banner start */
+.banner{
+    padding-bottom: 60px;
+}
+.b_text{
+    text-align: center;
+}
+.bh1{
+    
+    padding: 0;
+    font-size: 30px;
+    line-height: 40px;
+}
+.bp2{
+    padding: 0;
+    line-height: 26px;
+}
+.btn_link{
+    margin: 15px auto 0;
+}
+.b_img{
+    margin-bottom: 30px;
+    padding: 0 ;
+
+ }  
+ /*feature start*/
+ .c_padd{
+   padding: 0 0 60px;
+ }
+ .s_feature{
+    margin-top: 24px;
+ }
+ /*footer top*/
+ .footer_top{
+    text-align: center;
+    padding: 55px 0 15px;
+ }
+ .ft_details{ 
+
+    padding-bottom: 35px;
+    padding-right: 0px;
+}
+.ft_link{
+    margin-bottom: 35px;
+}
+/*course start*/
+ .c_item{
+    margin: 30px 0 0 ;
+    padding: 20px 15px 20px;
+ }
+ .course_h2{
+    font-size: 20px;
+ }
+ .c_left ul li img,
+.c_right  ul li img
+{
+   width: 20px;
+}
+.c_left ul li span,
+.c_right ul li span
+{
+    font-size: 14px;
+}
+/*testimony*/
+ .t_item{
+    margin-top: 30px;
+ }
+ .t_img{
+    padding: 0 50px 20px;
+ }
+ .t_text{
+    text-align: center;
+ }
+}
+ /*Small devices (landscape phones, 576px and */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /*header start*/
+ header{
+    padding: 5px 0;
+ }   
+ .logo{
+    width: 180px;
+ }
+ .menu ul li a{
+    margin-bottom: 5px;
+    padding: 0 10px !important ;
+}   
+/*banner start */
+.b_text{
+    text-align: center;
+}
+.bh1{
+    
+    padding: 0 90px;
+    font-size: 35px;
+    line-height: 50px;
+}
+.bp2{
+    padding: 0 40px;
+    line-height: 30px;
+}
+.btn_link{
+    margin: 15px auto 0;
+}
+.b_img{
+    margin-bottom: 30px;
+    padding: 0 60px;
+
+ }
+ /*feature start*/
+ .c_padd{
+   padding: 0 0 60px;
+ }
+ .s_feature{
+    margin-top: 24px;
+ }
+ /*course start*/
+.c_h1{
+    font-size: 30px;
+    line-height: 45px;
+}
+/*footer top*/
+ .footer_top{
+   
+    text-align: center;
+ }
+.ft_details{
+    margin-bottom: 65px;
+    padding-right: 70px;
+    padding-left: 70px;
+    text-align: center;
+ }
+
+ /*course start*/
+ .c_item{
+    margin: 30px 70px 0 ;
+    padding: 20px 15px 20px;
+ }
+/*testimony*/
+ .t_item{
+    margin-top: 30px;
+ }
+ .t_img{
+    padding: 0 120px 20px;
+ }
+ .t_text{
+    text-align: center;
+ }
+}
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*header start*/
+ .menu ul li a{
+    margin-bottom: 5px;
+    padding: 0 10px !important ;
+} 
+/*banner start */
+.b_text{
+    text-align: center;
+}
+.bh1{
+    padding: 0 130px;
+    line-height: 60px;
+}
+.bp2{
+    padding: 0 100px;
+    line-height: 30px;
+}
+.btn_link{
+    margin: 15px auto 0;
+}
+.b_img{
+    margin-bottom: 30px;
+    padding: 0 80px;
+
+ }
+ /*testimony*/
+ .t_item{
+    margin-top: 40px;
+ }
+ /*feature start*/
+ .c_padd{
+   padding: 0 0 80px;
+ }
+ /*footer top*/
+ .footer_top{
+   
+    text-align: center;
+ }
+.ft_details{
+    margin-bottom: 40px;
+    padding-right: 80px;
+    padding-left: 80px;
+    text-align: center;
+ }
+ /*course start*/
+ .c_item{
+    margin: 40px 130px 0 ;
+ }
+}
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*banner start*/
+.bh1{
+    
+    padding:0 4px 0 0  ;
+    font-size:43px ;
+}
+.bp2{
+    padding: 0 0 0 0 ;
+}
+
+/*course start*/
+.c_item{
+    padding: 25px 15px 30px;
+}
+.cli:not(:last-child){
+  margin-right: 0px  ;
+}
+.c_left ul li img,
+.c_right  ul li img
+{
+   width: 20px;
+}
+.c_left ul li span,
+.c_right ul li span
+{
+    font-size: 15px;
+}
+}
+
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+.bh1 {
+     padding: 0 30px 0 0;}
+.bp2 {
+    padding: 0 50px 0 0;
+}
+
+ /*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+    /*footer top*/
+.ft_details{
+    padding-right: 130px;
+}    
+}
